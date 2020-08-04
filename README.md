@@ -6,3 +6,6 @@ Se implementó método que retorna array con formato json, sin embargo, no se es
 
 ## 08/04/2020 18:24
 Se corrigió el error que se encontraba en 'models/tasks.class.php', ahora el método showTasks() retorna correctamente el JSON con las tareas.
+
+## 08/04/2020 18:39
+Se realizaron cambios en parametros de la conexión en'database/db.php' y por consecuente se eliminó el parametro PDO::FETCH_ASSOC en fetchAll() de 'models/tasks.class.php'.
