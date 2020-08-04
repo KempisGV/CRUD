@@ -1,14 +1,12 @@
 <?php
 
-include './models/tasks.class.php';
+include './models/users.class.php';
 
-class TasksView extends Tasks{
+class UsersView extends Users{
 
-    public function showTasks(){
+    public function showUser(){
         
-        $json_array = $this->getTasks();
-        
-        print(json_encode($json_array));
+       
 
     }
 
