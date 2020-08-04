@@ -16,7 +16,7 @@ class Tasks extends Db{
             $this->records = $this->connect()->prepare('SELECT tarea.title, tarea.description FROM tarea JOIN usuario ON usuario.id=tarea.uid WHERE usuario.email=:email');
             $this->records->bindParam(':email', $_POST['email']);
             $this->records->execute(); 
-            $this->results = $this->records->fetchAll(PDO::FETCH_ASSOC);
+            $this->results = $this->records->fetchAll();
 
             /*Si $results no está vacío se crea un array con formato json con los valores que guarda $temp*/
             if(!empty($this->results)){
