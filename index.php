@@ -25,6 +25,10 @@
     </form>
 
     <?php
+        
+        $prueba2 = new TasksController();
+        $prueba2->createTask("Prueba creada desde php","Descripcion de prueba creada desde php");
+        
         $prueba = new TasksView();
         $prueba->showTasks();
     ?>
