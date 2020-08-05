@@ -1,5 +1,6 @@
 <?php
     include 'views/tasksview.class.php';
+    include 'controllers/taskscontroller.class.php';
 ?>
 
 
