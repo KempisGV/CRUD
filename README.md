@@ -29,3 +29,11 @@ Aplicación web con formato CRUD haciendo uso de una API implementada en POO uti
 * Se modificó el nombre de las clases y archivos, cambiándolos al Ingles.
 * Falta implementar namespace y composers.
 
+## 08/06/2020 16:09
+* Se agregron varios headers a los archivos 'api/tasks.php' y 'api/users.php' con la finalidad de poder hacer uso de la API
+* Los headers agregados fueron:
+    * header('Access-Control-Allow-Origin: *');
+    * header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+    * header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
+    * header('content-type: application/json; charset=utf-8');
+
