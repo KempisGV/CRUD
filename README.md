@@ -20,3 +20,7 @@ Aplicación web con formato CRUD haciendo uso de una API implementada en POO uti
 * Todas las respuestas de la API son en JSON.
 * Futura implementación de la API para las tareas de los usuarios.
 * Falta implementar namespace y composers.
+
+## 08/05/2020 22:25
+* Se modificó la el método getUsuario() de la clase Usuario en 'models/usuario.class.php'
+
