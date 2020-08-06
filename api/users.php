@@ -1,7 +1,10 @@
 <?php
 
     //echo 'Informacion: ' . file_get_contents('php://input');
-    header("Content-Type: application/json");
+    header('Access-Control-Allow-Origin: *');
+    header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+    header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
+    header('content-type: application/json; charset=utf-8');
     include_once ("../controllers/userscontroller.class.php");
     
     //Recibir peticiones del usuario
