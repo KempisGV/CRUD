@@ -1,7 +1,7 @@
 <?php
-    include_once '../models/usuarios.class.php';
+    include_once '../models/users.class.php';
 
-    class UsersController extends Usuario{
+    class UsersController extends User{
 
         //Método que hace uso del método heredado saveUsuario() para guardar la información en la base de datos
         public function guardarUsuario(){
