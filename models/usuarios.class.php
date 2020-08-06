@@ -84,15 +84,13 @@
             $records->execute([$indice]); 
             $results =  $records->fetchAll();
     
-            $json_array = array();
-    
             if(!empty($results)){
     
                 foreach($results as $row){
-                    $json_array[] = $row;
+                    $json = $row;
                 }
                     
-                return $json_array;
+                return $json;
 
             } else{
                 return false;
