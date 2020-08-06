@@ -14,3 +14,9 @@ Aplicación web con formato CRUD haciendo uso de una API implementada en POO uti
 * Se editó la clase 'models/tasks.class.php', eliminando sus propiedades y modificando el método getTasks(), así mismo se agregaron los métodos getUID() y setTask().
 * En la clase 'controllers/taskscontroller.class.php' se agregó el método createTask()
 * Se agregó en 'index.php' un objeto de la clase TasksController para crear una nueva tarea
+
+## 08/05/2020 21:46
+* Se cambió totalmente la API, ahora trabaja con los métodos POST, GET, DELETE, PUT. Todos estos métodos pueden ser utilizados en la tabla de usuarios de la base de datos.
+* Todas las respuestas de la API son en JSON.
+* Futura implementación de la API para las tareas de los usuarios.
+* Falta implementar namespace y composers.
