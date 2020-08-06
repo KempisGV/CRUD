@@ -25,7 +25,7 @@ Aplicación web con formato CRUD haciendo uso de una API implementada en POO uti
 * Se modificó la el método getUsuario() de la clase Usuario en 'models/usuario.class.php'
 
 ## 08/06/2020 12:21
-* Se implementaron en la API los modelos, controladores y demás archivos referentes a las tareas del Usuario. Permitiendo poder utilizar los métodos POST, GET, DELET y PUT para cumplir su respectiva función.
+* Se implementaron en la API los modelos, controladores y demás archivos referentes a las tareas del Usuario. Permitiendo poder utilizar los métodos POST, GET, DELETE y PUT para cumplir su respectiva función.
 * Se modificó el nombre de las clases y archivos, cambiándolos al Ingles.
 * Falta implementar namespace y composers.
 
