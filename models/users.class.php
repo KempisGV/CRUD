@@ -2,7 +2,7 @@
 
     include_once("../database/db.php");
 
-    class Usuario extends DB{
+    class User extends DB{
 
         private $email;
         private $password;
@@ -13,19 +13,19 @@
             $this->password = $password;
         }
 
-        public function getEmail(){
+        protected function getEmail(){
             return $this->email;
         }
 
-        public function getPassword(){
+        protected function getPassword(){
             return $this->password;
         }
 
-        public function setEmail($email){
+        protected function setEmail($email){
             $this->email = $email;
         }
 
-        public function setPassword($password){
+        protected function setPassword($password){
             $this->password = $password;
         }
 
@@ -144,3 +144,4 @@
         }
 
     }
+?>
